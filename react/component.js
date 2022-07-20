@@ -30,6 +30,10 @@ function App() {
 
       <Modal></Modal>
       {/* <Modal/> */}
+
+      <Address></Address>
+
+      <Img></Img>
       
     </div>
   );
@@ -52,8 +56,27 @@ function Modal(){
   )
 }
 
+function Address(){
+  return (
+    <div className="add">
+      <h4>주소</h4>
+      <p>연락처</p>
+    </div>
+  )
+}
 
-// 컴포넌트 만드는 법 (div를 깔끔하게 축약할 때)
+function Img(){
+  return (
+    <div className="image">
+        <h4>이름</h4>
+        <p>날짜</p>
+    </div>
+  )
+}
+
+// html에서 앞이 대문자로 시작하면 컴포넌트임.
+
+// 컴포넌트 만드는 법 (많은 div를 깔끔하게 축약할 때)
 // 1. function 작명 (){}
 // 2. return() 안에 html 담기
 // 3. <함수명></함수명> 쓰기
@@ -66,4 +89,3 @@ function Modal(){
 
 
 export default App;
-
