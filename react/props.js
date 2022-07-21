@@ -87,4 +87,3 @@ function Modal(props){
 
 
 export default App;
-
