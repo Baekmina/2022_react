@@ -88,10 +88,3 @@ function Modal(props){
     </div>
   )
 }
-
-
-
-
-
-export default App;
-
